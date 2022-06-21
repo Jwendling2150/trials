@@ -1,0 +1,33 @@
+{
+  "name": "trials",
+  "title": "Trails through the Veillands",
+  "description": "",
+  "authors": [],
+  "flags": {},
+  "version": "1.0.0",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "label": "Veilland Items",
+      "type": "Item",
+      "name": "veilland-items",
+      "path": "packs/veilland-items.db",
+      "system": "dnd5e",
+      "package": "world",
+      "entity": "Item",
+      "private": false
+    }
+  ],
+  "system": "dnd5e",
+  "dependencies": [],
+  "socket": false,
+  "protected": false,
+  "background": "MistyCity.jpg",
+  "coreVersion": "9.269",
+  "resetKeys": false,
+  "safeMode": false,
+  "systemVersion": "1.6.2"
+}
