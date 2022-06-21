@@ -25,6 +25,7 @@
   "dependencies": [],
   "socket": false,
   "protected": false,
+  "download": "https://github.com/Jwendling2150/trials/archive/refs/heads/main.zip",
   "background": "MistyCity.jpg",
   "coreVersion": "9.269",
   "resetKeys": false,
