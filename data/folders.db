@@ -50,4 +50,5 @@
 {"_id":"uFwDC4QboCgKd0WU","name":"SpidersGorge","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":200000,"color":null,"flags":{}}
 {"name":"Everdark Mine","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"vdvE9N6V1OP6u7Yh"}
 {"name":"QueensRuins","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"vzugVKBHWidEadHe"}
+{"name":"SorrowsPrison","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"wNruIX8SvjEHEowV"}
 {"name":"Consumables","type":"Item","parent":null,"sorting":"a","sort":0,"color":"#001975","flags":{},"_id":"wjRvICzCENSeQJLy"}
