@@ -39,6 +39,7 @@
 {"name":"CrystalBeach","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"ggguqXW3eI9cwO7R"}
 {"_id":"iNj0kiI9gXOypC6K","name":"Tools","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"","flags":{}}
 {"name":"OleksHideout","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"jqdmH3dKLdMJVuK3"}
+{"name":"Amulets of the Eld","type":"Item","parent":"1h9rMjCm4YGEn7S3","sorting":"a","sort":0,"color":null,"flags":{},"_id":"k3jjC8Zw364dbK4D"}
 {"name":"CryptOfTheOuterWorlds","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"kgEfmVy8zfmQweye"}
 {"_id":"nK7Rbpsku1biH44L","name":"Players","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#1844c9","flags":{}}
 {"name":"CryptOfTheFallen","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"ngbSvW6o3Z09M9FG"}
