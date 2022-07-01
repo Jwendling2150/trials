@@ -3,6 +3,7 @@
 {"name":"CryptOfTheOuterWorlds","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"2xakBoqlpDZBEv3E"}
 {"name":"CryptOfTheRuneKing","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"38eAzxhidyyWwW2V"}
 {"name":"MountainThrone","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"46OJWUFVidEnRjp7"}
+{"name":"CryptOfTheFallen","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"4TGxTJDKivXC6uQT"}
 {"name":"DragonRiders","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"6VB4KPTORIcwcNWx"}
 {"name":"SorrowsPrison","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"6tqIlKzUm3Z3bRog"}
 {"name":"Enemies","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"6v5jSXCszrHISlvm"}
@@ -41,6 +42,7 @@
 {"name":"OleksHideout","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"jqdmH3dKLdMJVuK3"}
 {"name":"Amulets of the Eld","type":"Item","parent":"1h9rMjCm4YGEn7S3","sorting":"a","sort":0,"color":null,"flags":{},"_id":"k3jjC8Zw364dbK4D"}
 {"name":"CryptOfTheOuterWorlds","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"kgEfmVy8zfmQweye"}
+{"name":"Homebrew rules","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"l2BnOQQTdztiQFWG"}
 {"_id":"nK7Rbpsku1biH44L","name":"Players","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#1844c9","flags":{}}
 {"name":"CryptOfTheFallen","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"ngbSvW6o3Z09M9FG"}
 {"name":"WellspringCaverns","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"pBrzELDVrFZnE7R4"}
