@@ -25,11 +25,11 @@
   "system": "dnd5e",
   "dependencies": [],
   "socket": false,
-  "protected": false,
   "download": "https://github.com/Jwendling2150/trials/archive/refs/heads/main.zip",
+  "protected": false,
   "background": "MistyCity.jpg",
   "coreVersion": "9.269",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "1.6.2"
+  "systemVersion": "1.6.3"
 }

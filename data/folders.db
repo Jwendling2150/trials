@@ -22,6 +22,7 @@
 {"name":"Weapons","type":"Item","parent":null,"sorting":"a","sort":0,"color":"#800000","flags":{},"_id":"PqUFY9EK5tHqjUeU"}
 {"name":"Homestead","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"QCChEbKodpmgpFa4"}
 {"name":"ViletoothGully","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"QQ4PVjKTMyV38uWu"}
+{"name":"UnderlandsObelisks","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"QsfsNTK6lh3R1t1f"}
 {"name":"OleksVault","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"QwEhRXH8MBv1WzVs"}
 {"name":"QueensRuins","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"SW7TVqOdTEpUW5yW"}
 {"name":"SpidersGorge","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"VF4qpUmAmeoDjLRp"}
