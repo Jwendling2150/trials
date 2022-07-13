@@ -39,7 +39,7 @@
 {"name":"HangmansRavenwood","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"fpuE0GNAR19C7lrP"}
 {"_id":"gfQcUn2DVxnM15jJ","name":"BlackCouncil","type":"Actor","parent":null,"sorting":"a","sort":-100000,"color":null,"flags":{}}
 {"name":"CrystalBeach","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"ggguqXW3eI9cwO7R"}
-{"_id":"iNj0kiI9gXOypC6K","name":"Tools","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"","flags":{}}
+{"_id":"iNj0kiI9gXOypC6K","name":"Tools","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#936501","flags":{}}
 {"name":"OleksHideout","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"jqdmH3dKLdMJVuK3"}
 {"name":"Amulets of the Eld","type":"Item","parent":"1h9rMjCm4YGEn7S3","sorting":"a","sort":0,"color":null,"flags":{},"_id":"k3jjC8Zw364dbK4D"}
 {"name":"CryptOfTheOuterWorlds","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"kgEfmVy8zfmQweye"}
@@ -56,5 +56,4 @@
 {"name":"QueensRuins","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"vzugVKBHWidEadHe"}
 {"name":"SorrowsPrison","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"wNruIX8SvjEHEowV"}
 {"name":"Consumables","type":"Item","parent":null,"sorting":"a","sort":0,"color":"#001975","flags":{},"_id":"wjRvICzCENSeQJLy"}
-{"_id":"iNj0kiI9gXOypC6K","name":"Tools","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#e1ff00","flags":{}}
-{"_id":"iNj0kiI9gXOypC6K","name":"Tools","type":"Actor","parent":null,"sorting":"a","sort":0,"color":"#936501","flags":{}}
+{"name":"WellspringCaverns","type":"Item","parent":"wjRvICzCENSeQJLy","sorting":"a","sort":0,"color":null,"flags":{},"_id":"EBETqgp8KnLpVduy"}

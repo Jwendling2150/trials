@@ -1,0 +1,2764 @@
+{
+  "name": "Einhar",
+  "type": "character",
+  "img": "worlds/trials/UserContent/Sf-zangief.gif",
+  "data": {
+    "abilities": {
+      "str": {
+        "value": 20,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "dex": {
+        "value": 14,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "con": {
+        "value": 16,
+        "proficient": 1,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "int": {
+        "value": 9,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "wis": {
+        "value": 10,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      },
+      "cha": {
+        "value": 8,
+        "proficient": 0,
+        "bonuses": {
+          "check": "",
+          "save": ""
+        }
+      }
+    },
+    "attributes": {
+      "ac": {
+        "flat": null,
+        "calc": "unarmoredBarb",
+        "formula": ""
+      },
+      "hp": {
+        "value": 104,
+        "min": 0,
+        "max": 104,
+        "temp": null,
+        "tempmax": null
+      },
+      "init": {
+        "value": 0,
+        "bonus": 0
+      },
+      "movement": {
+        "burrow": 0,
+        "climb": 0,
+        "fly": 0,
+        "swim": 0,
+        "walk": 30,
+        "units": "ft",
+        "hover": false
+      },
+      "attunement": {
+        "max": 3
+      },
+      "senses": {
+        "darkvision": 0,
+        "blindsight": 0,
+        "tremorsense": 0,
+        "truesight": 0,
+        "units": "ft",
+        "special": ""
+      },
+      "spellcasting": "int",
+      "death": {
+        "success": 0,
+        "failure": 0
+      },
+      "exhaustion": 0,
+      "inspiration": false
+    },
+    "details": {
+      "biography": {
+        "value": "",
+        "public": ""
+      },
+      "alignment": "Good",
+      "race": "Human",
+      "background": "Athlete (Wrestling)",
+      "originalClass": "O3wQGoRK8MnM4vNo",
+      "xp": {
+        "value": 0,
+        "min": 0,
+        "max": 300
+      },
+      "appearance": "",
+      "trait": "",
+      "ideal": "",
+      "bond": "",
+      "flaw": ""
+    },
+    "traits": {
+      "size": "med",
+      "di": {
+        "value": [],
+        "custom": ""
+      },
+      "dr": {
+        "value": [],
+        "custom": ""
+      },
+      "dv": {
+        "value": [],
+        "custom": ""
+      },
+      "ci": {
+        "value": [],
+        "custom": ""
+      },
+      "languages": {
+        "value": [
+          "common",
+          "dwarvish",
+          "giant",
+          "orc"
+        ],
+        "custom": ""
+      },
+      "weaponProf": {
+        "value": [],
+        "custom": ""
+      },
+      "armorProf": {
+        "value": [],
+        "custom": ""
+      },
+      "toolProf": {
+        "value": [
+          "drum",
+          "vehicle"
+        ],
+        "custom": ""
+      }
+    },
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "ep": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "skills": {
+      "acr": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ani": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "arc": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ath": {
+        "value": 2,
+        "ability": "str",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "dec": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "his": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ins": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "itm": {
+        "value": 1,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "inv": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "med": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "nat": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prc": {
+        "value": 1,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "prf": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "per": {
+        "value": 0,
+        "ability": "cha",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "rel": {
+        "value": 0,
+        "ability": "int",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "slt": {
+        "value": 0,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "ste": {
+        "value": 1,
+        "ability": "dex",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      },
+      "sur": {
+        "value": 0,
+        "ability": "wis",
+        "bonuses": {
+          "check": "",
+          "passive": ""
+        }
+      }
+    },
+    "spells": {
+      "spell1": {
+        "value": 0,
+        "override": null
+      },
+      "spell2": {
+        "value": 0,
+        "override": null
+      },
+      "spell3": {
+        "value": 0,
+        "override": null
+      },
+      "spell4": {
+        "value": 0,
+        "override": null
+      },
+      "spell5": {
+        "value": 0,
+        "override": null
+      },
+      "spell6": {
+        "value": 0,
+        "override": null
+      },
+      "spell7": {
+        "value": 0,
+        "override": null
+      },
+      "spell8": {
+        "value": 0,
+        "override": null
+      },
+      "spell9": {
+        "value": 0,
+        "override": null
+      },
+      "pact": {
+        "value": 0,
+        "override": null
+      }
+    },
+    "bonuses": {
+      "mwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rwak": {
+        "attack": "",
+        "damage": ""
+      },
+      "msak": {
+        "attack": "",
+        "damage": ""
+      },
+      "rsak": {
+        "attack": "",
+        "damage": ""
+      },
+      "abilities": {
+        "check": "",
+        "save": "",
+        "skill": ""
+      },
+      "spell": {
+        "dc": ""
+      }
+    },
+    "resources": {
+      "primary": {
+        "value": 4,
+        "max": 4,
+        "sr": false,
+        "lr": false,
+        "label": "Rage"
+      },
+      "secondary": {
+        "value": 4,
+        "max": 4,
+        "sr": false,
+        "lr": false,
+        "label": "Ki"
+      },
+      "tertiary": {
+        "value": null,
+        "max": null,
+        "sr": false,
+        "lr": false,
+        "label": ""
+      }
+    }
+  },
+  "token": {
+    "name": "Mike's Character",
+    "img": "ezgif.com-gif-maker.webm",
+    "displayName": 0,
+    "actorLink": true,
+    "width": 1,
+    "height": 1,
+    "scale": 1,
+    "mirrorX": false,
+    "mirrorY": false,
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "vision": true,
+    "dimSight": 0,
+    "brightSight": 0,
+    "sightAngle": 0,
+    "light": {
+      "alpha": 0.5,
+      "angle": 0,
+      "bright": 0,
+      "coloration": 1,
+      "dim": 0,
+      "gradual": true,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      },
+      "color": null
+    },
+    "disposition": 1,
+    "displayBars": 30,
+    "bar1": {
+      "attribute": "attributes.hp"
+    },
+    "bar2": {
+      "attribute": ""
+    },
+    "flags": {},
+    "randomImg": false,
+    "tint": null
+  },
+  "items": [
+    {
+      "_id": "O3wQGoRK8MnM4vNo",
+      "name": "Barbarian",
+      "type": "class",
+      "img": "icons/svg/item-bag.svg",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "identifier": "Barbarian",
+        "levels": 6,
+        "hitDice": "d12",
+        "hitDiceUsed": 0,
+        "advancement": [],
+        "saves": [],
+        "skills": {
+          "number": 2,
+          "choices": [],
+          "value": []
+        },
+        "spellcasting": {
+          "progression": "none",
+          "ability": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ZrC1ufWu9FunNNHC",
+      "name": "Monk",
+      "type": "class",
+      "img": "icons/svg/item-bag.svg",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "identifier": "Monk",
+        "levels": 4,
+        "hitDice": "d8",
+        "hitDiceUsed": 0,
+        "advancement": [],
+        "saves": [],
+        "skills": {
+          "number": 2,
+          "choices": [],
+          "value": []
+        },
+        "spellcasting": {
+          "progression": "none",
+          "ability": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "nZESwVTklfgziAlV",
+      "name": "Athlete (Wrestler)",
+      "type": "background",
+      "img": "modules/5eFeats/Icons/Athlete.jpg",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "advancement": []
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "ttQ2JFimhQq0Y1uu",
+      "name": "Prodigy Feat",
+      "type": "feat",
+      "img": "modules/5eFeats/Icons/Keen-Mind.jpg",
+      "data": {
+        "description": {
+          "value": "<p>You have a knack for learning new things. You gain the following benefits:</p>\n<ul>\n<li>You gain one skill proficiency of your choice, one tool proficiency of your choice, and fluency in one language of your choice.</li>\n</ul>\n<ul>\n<li>Choose one skill in which you have proficiency. You gain expertise with that skill, which means your proficiency bonus is doubled for any ability check you make with it. The skill you choose must be one that isn't already benefiting from a feature, such as Expertise, that doubles your proficiency bonus</li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "jyTYtGJLy6pVPS8w",
+      "name": "Fighting Initiate Feat",
+      "type": "feat",
+      "img": "modules/5eFeats/Icons/Martial-Adept.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Your martial training has helped you develop a particular style of fighting. As a result, you learn one Fighting Style option of your choice from the fighter class. If you already have a style, the one you choose must be different.</p>\n<p>Whenever you reach a level that grants the Ability Score Improvement feature, you can replace this feat's fighting style with another one from the fighter class that you don't have.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "mOiRSDQ0fJs9Nq73",
+      "name": "Unarmed Fighting Style",
+      "type": "feat",
+      "img": "modules/5eFeats/Icons/Tough.jpg",
+      "data": {
+        "description": {
+          "value": "<p>Your unarmed strikes can deal bludgeoning damage equal to 1d6 + your Strength modifier on a hit. If you aren't wielding any weapons or a shield when you make the attack roll, the d6 becomes a d8.</p>\n<ul>\n<li>At the start of each of your turns, you can deal 1d4 bludgeoning damage to one creature grappled by you.</li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "H8ln1SrrkuoDHxrl",
+      "name": "MY FISTS!",
+      "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": true,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8+@mod",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -200000,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "rbDUdm3Upj4qgHN2",
+      "name": "MY ASTRAL FISTS!",
+      "type": "weapon",
+      "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8+@mod",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "u0eSMmAZ5pVdDPNX",
+      "name": "Arms of the Astral Self",
+      "type": "feat",
+      "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+      "data": {
+        "description": {
+          "value": "<p>At 3rd level, your mastery of your ki allows you to summon a portion of your astral self. As a bonus action, you can spend 1 ki point to summon the arms of your astral self. When you do so, each creature of your choice that you can see within 10 feet of you must succeed on a Dexterity saving throw or take force damage equal to two rolls of your Martial Arts die.</p>\n<p>For 10 minutes, these spectral arms hover near your shoulders or surround your arms (your choice). You determine the arms' appearance, and they vanish early if you are incapacitated or die.</p>\n<p>While the spectral arms are present, you gain the following benefits:</p>\n<ul>\n<li>You can use your Wisdom modifier in place of your Strength modifier when making Strength checks and Strength saving throws.</li>\n</ul>\n<ul>\n<li>You can use the spectral arms to make unarmed strikes.</li>\n</ul>\n<ul>\n<li>When you make an unarmed strike with the arms on your turn, your reach for it is 5 feet greater than normal.</li>\n</ul>\n<ul>\n<li>The unarmed strikes you make with the arms can use your Wisdom modifier in place of your Strength or Dexterity modifier for the attack and damage rolls, and their damage type is force.</li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "L3hedzL8hn5BkmGz",
+      "name": "Deflect Missiles",
+      "type": "feat",
+      "img": "icons/skills/melee/unarmed-punch-fist-white.webp",
+      "data": {
+        "description": {
+          "value": "<p>Starting at 3rd level, you can use your reaction to deflect or catch the missile when you are hit by a ranged weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your monk level.</p>\n<p>If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack with a range of 20/60 using the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "u3EYphrNhCtxlogh",
+      "name": "Slow Fall",
+      "type": "feat",
+      "img": "icons/magic/control/silhouette-fall-slip-prone.webp",
+      "data": {
+        "description": {
+          "value": "<p>Beginning at 4th level, you can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your monk level.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "reaction",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "AXQidf25R5lqllsj",
+      "name": "Ki-Fueled Attack",
+      "type": "feat",
+      "img": "icons/skills/melee/unarmed-punch-fist-blue.webp",
+      "data": {
+        "description": {
+          "value": "<p>Also at 3rd level, if you spend 1 ki point or more as part of your action on your turn, you can make one attack with an unarmed strike or a monk weapon as a bonus action before the end of the turn.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "HVmv5fYzHMyDV743",
+      "name": "Quickened Healing",
+      "type": "feat",
+      "img": "icons/magic/life/heart-area-circle-red-green.webp",
+      "data": {
+        "description": {
+          "value": "<p>Also at 4th level, as an action, you can spend 2 ki points and roll a Martial Arts die. You regain a number of hit points equal to the number rolled plus your proficiency bonus.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "action",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "oKQDc8yp5nIyuW3d",
+      "name": "Rage",
+      "type": "feat",
+      "img": "icons/creatures/abilities/mouth-teeth-human.webp",
+      "data": {
+        "description": {
+          "value": "<p>In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action. While raging, you gain the following benefits if you aren't wearing heavy armor:</p>\n<ul>\n<li>\n<p>You have advantage on Strength checks and Strength saving throws.</p>\n</li>\n<li>\n<p>When you make a melee weapon attack using Strength, you gain a bonus to the damage roll that increases as you gain levels as a barbarian, as shown in the Rage Damage column of the Barbarian table.</p>\n</li>\n<li>\n<p>You have resistance to bludgeoning, piercing, and slashing damage.</p>\n</li>\n</ul>\n<p>If you are able to cast spells, you can't cast them or concentrate on them while raging. </p>\n<p>Your rage lasts for 1 minute. It ends early if you are knocked unconscious or if your turn ends and you haven't attacked a hostile creature since your last turn or taken damage since then. You can also end your rage on your turn as a bonus action. </p>\n<p>Once you have raged the number of times shown for your barbarian level in the Rages column of the Barbarian table, you must finish a long rest before you can rage again.</p>\n<p> </p>\n<h1><span style=\"text-decoration:underline\"><strong>FORM OF THE BEAST</strong></span></h1>\n<p>Starting when you choose this path at 3rd level, when you enter your rage, you can transform, revealing the bestial power within you. Until the rage ends, you manifest a natural weapon. It counts as a simple melee weapon for you, and you add your Strength modifier to the attack and damage rolls when you attack with it, as normal.</p>\n<p>You choose the weapon’s form each time you rage:</p>\n<p><span style=\"text-decoration:underline\"><strong>Bite:</strong></span> Your mouth transforms into a bestial muzzle or great mandibles (your choice). It deals 1d8 piercing damage on a hit. Once on each of your turns when you damage a creature with this bite, you regain a number of hit points equal to your proficiency bonus, provided you have less than half your hit points when you hit.</p>\n<p><span style=\"text-decoration:underline\"><strong>Claws:</strong></span> Each of your hands transforms into a claw, which you can use as a weapon if it’s empty. It deals 1d6 slashing damage on a hit. Once on each of your turns when you attack with a claw using the Attack action, you can make one additional claw attack as part of the same action.</p>\n<p><span style=\"text-decoration:underline\"><strong>Tail:</strong></span> You grow a lashing, spiny tail, which deals 1d8 piercing damage on a hit and has the reach property. If a creature you can see within 10 feet of you hits you with an attack roll, you can use your reaction to swipe your tail and roll a d8, applying a bonus to your AC equal to the number rolled, potentially causing the attack to miss you.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 48",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "minute"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attunement": null
+      },
+      "effects": [
+        {
+          "_id": "eWhL8hUr0c2ujDUm",
+          "flags": {},
+          "changes": [
+            {
+              "key": "data.bonuses.mwak.damage",
+              "mode": 2,
+              "value": "+@scale.barbarian.rage-damage"
+            },
+            {
+              "key": "data.traits.dr.value",
+              "mode": 2,
+              "value": "slashing"
+            },
+            {
+              "key": "data.traits.dr.value",
+              "mode": 2,
+              "value": "piercing"
+            },
+            {
+              "key": "data.traits.dr.value",
+              "mode": 2,
+              "value": "bludgeoning"
+            }
+          ],
+          "disabled": true,
+          "duration": {
+            "startTime": null,
+            "rounds": 10
+          },
+          "icon": "icons/creatures/abilities/mouth-teeth-human.webp",
+          "label": "Rage",
+          "origin": "Item.bdfYHJstcltQC7SZ",
+          "tint": null,
+          "transfer": true
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.classfeatures.VoR0SUrNX5EJVPIO"
+        }
+      }
+    },
+    {
+      "_id": "2uIiVSM1nsGjkN8U",
+      "name": "MY FISTS (BUT MAD)!",
+      "type": "weapon",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8+@mod+2",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": -100000,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "TyYHWS5kUAmsyzc6",
+      "name": "MY ASTRAL FISTS (BUT MAD)!",
+      "type": "weapon",
+      "img": "icons/magic/control/buff-strength-muscle-damage-orange.webp",
+      "data": {
+        "description": {
+          "value": "",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "action",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 10,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d8+@mod+2",
+              "force"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "xqiJBj7bkiQA1e1S",
+      "name": "Unarmored Defense (Barbarian)",
+      "type": "feat",
+      "img": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "data": {
+        "description": {
+          "value": "<p>While you are not wearing any armor, your Armor Class equals 10 + your Dexterity modifier + your Constitution modifier. You can use a shield and still gain this benefit.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 48",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attunement": null
+      },
+      "effects": [
+        {
+          "_id": "hEgUnQNVxtBo2zkK",
+          "changes": [
+            {
+              "key": "data.attributes.ac.calc",
+              "mode": 5,
+              "value": "unarmoredBarb"
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null
+          },
+          "icon": "icons/magic/control/silhouette-hold-change-blue.webp",
+          "label": "Unarmored Defense",
+          "origin": "Item.aIMXb43ACIxMItbh",
+          "transfer": true,
+          "flags": {},
+          "tint": null
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.classfeatures.SZbsNbaxFFGwBpNK"
+        }
+      }
+    },
+    {
+      "_id": "mlaMbWjM8xvSXhEU",
+      "name": "Danger Sense",
+      "type": "feat",
+      "img": "icons/skills/wounds/injury-face-impact-orange.webp",
+      "data": {
+        "description": {
+          "value": "<p>At 2nd level, you gain an uncanny sense of when things nearby aren't as they should be, giving you an edge when you dodge away from danger.</p><p>You have advantage on Dexterity saving throws against effects that you can see, such as traps and spells. To gain this benefit, you can't be blinded, deafened, or incapacitated.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 46",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attunement": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.classfeatures.vt31lWAULygEl7yk"
+        }
+      }
+    },
+    {
+      "_id": "PvrHTC2cR6GuDd2b",
+      "name": "Reckless Attack",
+      "type": "feat",
+      "img": "icons/magic/death/grave-tombstone-glow-teal.webp",
+      "data": {
+        "description": {
+          "value": "<p>Starting at 2nd level, you can throw aside all concern for defense to attack with fierce desperation.</p><p>When you make your first attack on your turn, you can decide to attack recklessly. Doing so gives you advantage on melee weapon attack rolls using Strength during this turn, but attack rolls against you have advantage until your next turn.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 48",
+        "activation": {
+          "type": "none",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": 1,
+          "units": "round"
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Barbarian 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attunement": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.classfeatures.SCVjqRdlZ9cvHVSR"
+        }
+      }
+    },
+    {
+      "_id": "NrCsWMFU2sezvX7M",
+      "name": "Unarmored Movement (Monk)",
+      "type": "feat",
+      "img": "icons/magic/nature/root-vine-entangle-foot-green.webp",
+      "data": {
+        "description": {
+          "value": "<p>Starting at 2nd level, your speed increases by 10 feet while you are not wearing armor or wielding a shield. This bonus increases when you reach certain monk levels, as shown in the table below. </p>\n<p>At 9th level, you gain the ability to move along vertical surfaces and across liquids on your turn without falling during the move.</p>\n<table style=\"width:227px\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width:79px\"><strong>Monk Level</strong></td>\n<td style=\"width:141px\"><strong>Unarmored Movement</strong></td>\n</tr>\n<tr>\n<td style=\"width:79px\">2nd</td>\n<td style=\"width:141px\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">3rd</td>\n<td style=\"width:141px\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">4th</td>\n<td style=\"width:141px\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">5th</td>\n<td style=\"width:141px\">+10 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">6th</td>\n<td style=\"width:141px\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">7th</td>\n<td style=\"width:141px\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">8th</td>\n<td style=\"width:141px\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">9th</td>\n<td style=\"width:141px\">+15 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">10th</td>\n<td style=\"width:141px\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">11th</td>\n<td style=\"width:141px\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">12th</td>\n<td style=\"width:141px\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">13th</td>\n<td style=\"width:141px\">+20 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">14th</td>\n<td style=\"width:141px\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">15th</td>\n<td style=\"width:141px\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">16th</td>\n<td style=\"width:141px\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">17th</td>\n<td style=\"width:141px\">+25 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">18th</td>\n<td style=\"width:141px\">+30 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">19th</td>\n<td style=\"width:141px\">+30 ft.</td>\n</tr>\n<tr>\n<td style=\"width:79px\">20th</td>\n<td style=\"width:141px\">+30 ft.</td>\n</tr>\n</tbody>\n</table>\n<p> </p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 77-78",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": ""
+        },
+        "target": {
+          "value": "",
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": "",
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Monk 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attunement": null
+      },
+      "effects": [
+        {
+          "_id": "Veg0vXI93A0qlxZn",
+          "flags": {},
+          "changes": [
+            {
+              "key": "data.attributes.movement.walk",
+              "value": "10",
+              "mode": 2
+            }
+          ],
+          "disabled": false,
+          "duration": {
+            "startTime": null
+          },
+          "icon": "icons/magic/nature/root-vine-entangle-foot-green.webp",
+          "label": "Unarmored Movement",
+          "origin": "Item.C1StXv1J6o9PrZ1K",
+          "tint": null,
+          "transfer": true
+        }
+      ],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.classfeatures.zCeqyQ8uIPNdYJSW"
+        }
+      }
+    },
+    {
+      "_id": "ySq0IUUGlZJqZpXh",
+      "name": "Ki",
+      "type": "feat",
+      "img": "icons/magic/light/explosion-beam-impact-silhouette.webp",
+      "data": {
+        "description": {
+          "value": "<p>Starting at 2nd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your monk level equals the number of ki points you have, so a 2nd level monk has 2 ki points, a 16th level monk has 16.</p><p>You can spend these points to fuel various ki features. You start knowing three such features: @Compendium[dnd5e.classfeatures.5MwNlVZK7m6VolOH]{Ki: Flurry of Blows}, @Compendium[dnd5e.classfeatures.TDglPcxIVEzvVSgK]{Ki: Patient Defense}, and @Compendium[dnd5e.classfeatures.yrSFIGTaQOH2PFRI]{Ki: Step of the Wind}. You learn more ki features as you gain levels in this class.</p><p>When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.</p><p>Some of your ki features require your target to make a saving throw to resist the feature's effects. The saving throw DC is calculated as follows:</p><p><em><strong>Ki save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</em></p><p><em>**Foundry note: Use this to track all the various uses of ki for the monk.</em></p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 78",
+        "activation": {
+          "type": "special",
+          "cost": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": ""
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Monk 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attunement": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 100001,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.classfeatures.10b6z2W1txNkrGP7"
+        }
+      }
+    },
+    {
+      "_id": "qpcbdlRSerrErDTt",
+      "name": "Ki: Step of the Wind",
+      "type": "feat",
+      "img": "icons/magic/air/air-wave-gust-blue.webp",
+      "data": {
+        "description": {
+          "value": "<p>You can spend 1 ki point to take the Disengage or Dash action as a bonus action on your turn, and your jump distance is doubled for the turn.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 78",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": null,
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Monk 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attunement": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.classfeatures.yrSFIGTaQOH2PFRI"
+        }
+      }
+    },
+    {
+      "_id": "Vc48Pgw0WlIj02Dh",
+      "name": "Ki: Flurry of Blows",
+      "type": "feat",
+      "img": "icons/skills/melee/unarmed-punch-fist-yellow-red.webp",
+      "data": {
+        "description": {
+          "value": "<p>Immediately after you take the Attack action on your turn, you can spend 1 ki point to make two unarmed strikes as a bonus action.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 78",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": "Comes immediately after taking the Attack action."
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": 5,
+          "long": null,
+          "units": "ft"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Monk 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attunement": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.classfeatures.5MwNlVZK7m6VolOH"
+        }
+      }
+    },
+    {
+      "_id": "7e9fh4PGlpNGbEkc",
+      "name": "Ki: Patient Defense",
+      "type": "feat",
+      "img": "icons/magic/defensive/shield-barrier-glowing-blue.webp",
+      "data": {
+        "description": {
+          "value": "<p>You can spend 1 ki point to take the Dodge action as a bonus action on your turn.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 78",
+        "activation": {
+          "type": "bonus",
+          "cost": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": null,
+          "type": "self"
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": "self"
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Monk 2",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attunement": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.classfeatures.TDglPcxIVEzvVSgK"
+        }
+      }
+    },
+    {
+      "_id": "dsTnHv4wiM7jT06i",
+      "name": "Bestial Soul",
+      "type": "feat",
+      "img": "icons/magic/unholy/strike-body-life-soul-green.webp",
+      "data": {
+        "description": {
+          "value": "<p>Beginning at 6th level, the feral power within you increases, causing the natural weapons of your Form of the Beast to count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>\n<p>You can also alter your form to help you adapt to your surroundings. When you finish a short or long rest, choose one of the following benefits, which lasts until you finish a short or long rest:</p>\n<ul>\n<li>You gain a swimming speed equal to your walking speed, and you can breathe underwater.</li>\n</ul>\n<ul>\n<li>You gain a climbing speed equal to your walking speed, and you can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</li>\n</ul>\n<ul>\n<li>When you jump, you can make a Strength (Athletics) check and extend your jump by a number of feet equal to the check’s total. You can make this special check only once per turn.</li>\n</ul>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "",
+        "recharge": {
+          "value": null,
+          "charged": false
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "3FwfMUERxTPXzCvi",
+      "name": "Squeeze 'em a little",
+      "type": "weapon",
+      "img": "icons/magic/earth/strike-fist-stone-gray.webp",
+      "data": {
+        "description": {
+          "value": "<p>Put the squeeze on em.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": null,
+          "width": null,
+          "units": "",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": null,
+          "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [
+            [
+              "1d4",
+              "bludgeoning"
+            ]
+          ],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "armor": {
+          "value": 10
+        },
+        "hp": {
+          "value": 0,
+          "max": 0,
+          "dt": null,
+          "conditions": ""
+        },
+        "weaponType": "natural",
+        "baseItem": "",
+        "properties": {
+          "ada": false,
+          "amm": false,
+          "fin": false,
+          "fir": false,
+          "foc": false,
+          "hvy": false,
+          "lgt": false,
+          "lod": false,
+          "mgc": false,
+          "rch": false,
+          "rel": false,
+          "ret": false,
+          "sil": false,
+          "spc": false,
+          "thr": false,
+          "two": false,
+          "ver": false
+        },
+        "proficient": true
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {}
+    },
+    {
+      "_id": "yegi76L05r9KKbXm",
+      "name": "Martial Arts",
+      "type": "feat",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "data": {
+        "description": {
+          "value": "<p>At 1st level, your practice of martial arts gives you mastery of combat styles that use and monk weapons, which are shortswords and any simple melee weapons that don't have the two-handed or heavy property. You gain the following benefits while you are unarmed or wielding only monk weapons and you aren't wearing armor or wielding a shield:</p>\n<ul>\n<li>\n<p>You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes and monk weapons.</p>\n</li>\n<li>\n<p>You can roll a d4 in place of the normal damage of your unarmed strike or monk weapon. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.</p>\n</li>\n<li>\n<p>When you use the Attack action with an unarmed strike or a monk weapon on your turn, you can make one unarmed strike as a bonus action. For example, if you take the Attack action and attack with a quarterstaff, you can also make an unarmed strike as a bonus action, assuming you haven't already taken a bonus action this turn.</p>\n</li>\n</ul>\n<p>Certain monasteries use specialized forms of the monk weapons. For example, you might use a club that is two lengths of wood connected by a short chain (called a nunchaku) or a sickle with a shorter, straighter blade (called a kama). Whatever name you use for a monk weapon, you can use the game statistics provided for the weapon.</p>",
+          "chat": "",
+          "unidentified": ""
+        },
+        "source": "PHB pg. 78",
+        "activation": {
+          "type": "",
+          "cost": 0,
+          "condition": ""
+        },
+        "duration": {
+          "value": null,
+          "units": ""
+        },
+        "target": {
+          "value": 5,
+          "width": null,
+          "units": "ft",
+          "type": ""
+        },
+        "range": {
+          "value": null,
+          "long": null,
+          "units": ""
+        },
+        "uses": {
+          "value": null,
+          "max": "",
+          "per": null
+        },
+        "consume": {
+          "type": "",
+          "target": "",
+          "amount": null
+        },
+        "ability": "dex",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": {
+          "threshold": null,
+          "damage": ""
+        },
+        "damage": {
+          "parts": [],
+          "versatile": ""
+        },
+        "formula": "",
+        "save": {
+          "ability": "",
+          "dc": null,
+          "scaling": "spell"
+        },
+        "requirements": "Monk 1",
+        "recharge": {
+          "value": null,
+          "charged": false
+        },
+        "attunement": null
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "permission": {
+        "default": 0,
+        "rjt7l1rI9pYVpnOn": 3
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.dnd5e.classfeatures.l50hjTxO2r0iecKw"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "_id": "a8yaEjsPeeKsKe3R",
+      "changes": [
+        {
+          "key": "data.bonuses.mwak.damage",
+          "mode": 2,
+          "value": "+@scale.barbarian.rage-damage"
+        },
+        {
+          "key": "data.traits.dr.value",
+          "mode": 2,
+          "value": "slashing"
+        },
+        {
+          "key": "data.traits.dr.value",
+          "mode": 2,
+          "value": "piercing"
+        },
+        {
+          "key": "data.traits.dr.value",
+          "mode": 2,
+          "value": "bludgeoning"
+        }
+      ],
+      "disabled": true,
+      "duration": {
+        "startTime": 0,
+        "rounds": 10
+      },
+      "icon": "icons/creatures/abilities/mouth-teeth-human.webp",
+      "label": "Rage",
+      "origin": "Actor.pObkZZrPE5uMr65e.Item.oKQDc8yp5nIyuW3d",
+      "tint": null,
+      "transfer": false,
+      "flags": {}
+    },
+    {
+      "_id": "UrMBv638J8GwPzQd",
+      "changes": [
+        {
+          "key": "data.attributes.ac.calc",
+          "mode": 5,
+          "value": "unarmoredBarb"
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0
+      },
+      "icon": "icons/magic/control/silhouette-hold-change-blue.webp",
+      "label": "Unarmored Defense",
+      "origin": "Actor.pObkZZrPE5uMr65e.Item.xqiJBj7bkiQA1e1S",
+      "tint": null,
+      "transfer": false,
+      "flags": {}
+    },
+    {
+      "_id": "VFdDgG4ECxnffyoz",
+      "changes": [
+        {
+          "key": "data.attributes.movement.walk",
+          "value": "10",
+          "mode": 2
+        }
+      ],
+      "disabled": false,
+      "duration": {
+        "startTime": 0
+      },
+      "icon": "icons/magic/nature/root-vine-entangle-foot-green.webp",
+      "label": "Unarmored Movement",
+      "origin": "Actor.pObkZZrPE5uMr65e.Item.NrCsWMFU2sezvX7M",
+      "tint": null,
+      "transfer": false,
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "exportSource": {
+      "world": "trials",
+      "system": "dnd5e",
+      "coreVersion": "9.269",
+      "systemVersion": "1.6.3"
+    }
+  }
+}
